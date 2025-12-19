@@ -23447,7 +23447,7 @@
         },
         {
           "name": "LegFromCenter",
-          "ioValue": -500
+          "ioValue": 500
         }
       ],
       "topLevel": false,
@@ -23710,7 +23710,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -500
+              "ioValue": 500
             },
             {
               "name": "yDist",
@@ -91422,6 +91422,11 @@
       "ap2Name": "LegFromCenter",
       "ap1ID": "id-25710",
       "ap2ID": "id-85062"
+    },
+    {
+      "ap2Name": "LegFromCenter",
+      "ap1ID": "id-25710",
+      "ap2ID": "id-76728"
     },
     {
       "ap2Name": "x",
