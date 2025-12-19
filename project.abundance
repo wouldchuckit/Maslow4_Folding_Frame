@@ -7,10 +7,6 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10
-    },
-    {
-      "name": "WoodThick",
       "ioValue": 19.05
     },
     {
@@ -55,8 +51,7 @@
     },
     {
       "name": "LegFromCenter",
-      "ioValue": 500,
-      "currentEquation": "500"
+      "ioValue": 500
     }
   ],
   "topLevel": true,
@@ -68,9 +63,105 @@
       "uniqueID": "id-2"
     },
     {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.10999999999999999,
+      "uniqueID": "id-25669",
+      "name": "WoodThick",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.176,
+      "uniqueID": "id-25672",
+      "name": "BeamLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.242,
+      "uniqueID": "id-25675",
+      "name": "BeamHeight",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.308,
+      "uniqueID": "id-25678",
+      "name": "TopHeight",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.374,
+      "uniqueID": "id-25681",
+      "name": "LegWidth",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.44,
+      "uniqueID": "id-25684",
+      "name": "LegAngle",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.506,
+      "uniqueID": "id-25687",
+      "name": "BitDiameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.5720000000000001,
+      "uniqueID": "id-25690",
+      "name": "Bolt2Diameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.6380000000000001,
+      "uniqueID": "id-25693",
+      "name": "TabletopLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.7040000000000002,
+      "uniqueID": "id-25696",
+      "name": "BoltDiameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.7700000000000002,
+      "uniqueID": "id-25699",
+      "name": "TabletopWidth",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.8360000000000003,
+      "uniqueID": "id-25710",
+      "name": "LegFromCenter",
+      "type": "number"
+    },
+    {
       "atomType": "GitHubMolecule",
-      "x": 0.2222222222222222,
-      "y": 0.16397228637413394,
+      "x": 0.14670981661272922,
+      "y": 0.12702078521939952,
       "uniqueID": "id-1021",
       "name": "Maslow4_Folding_Frame_Parts_Beam_Assembly",
       "ioValues": [
@@ -22202,8 +22293,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.2313915857605178,
-      "y": 0.7020785219399538,
+      "x": 0.2459546925566343,
+      "y": 0.12009237875288684,
       "uniqueID": "id-5124",
       "name": "Maslow4_Folding_Frame_Parts_Beam_Assembly_b",
       "ioValues": [
@@ -44345,8 +44436,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.5420711974110033,
-      "y": 0.6789838337182448,
+      "x": 0.4929881337648328,
+      "y": 0.12702078521939952,
       "uniqueID": "id-9227",
       "name": "Maslow4_Folding_Frame_Parts_Beam_Assembly_c",
       "ioValues": [
@@ -44364,7 +44455,7 @@
         },
         {
           "name": "TopHeight",
-          "ioValue": 600
+          "ioValue": 450
         },
         {
           "name": "LegWidth",
@@ -44396,7 +44487,7 @@
         },
         {
           "name": "LegFromCenter",
-          "ioValue": -500
+          "ioValue": 500
         }
       ],
       "topLevel": false,
@@ -44659,7 +44750,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -500
+              "ioValue": 500
             },
             {
               "name": "yDist",
@@ -48082,7 +48173,7 @@
             },
             {
               "name": "TopHeight",
-              "ioValue": 600
+              "ioValue": 450
             },
             {
               "name": "LegWidth",
@@ -48137,7 +48228,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 600
+                  "ioValue": 450
                 },
                 {
                   "name": "y length",
@@ -48153,7 +48244,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 840
+                  "ioValue": 690
                 },
                 {
                   "name": "y length",
@@ -48169,7 +48260,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 600
+                  "ioValue": 450
                 },
                 {
                   "name": "y length",
@@ -48406,7 +48497,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 600
+                  "ioValue": 450
                 }
               ],
               "currentEquation": "x *.5"
@@ -48420,7 +48511,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 600
+                  "ioValue": 450
                 },
                 {
                   "name": "y",
@@ -48473,7 +48564,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 300
+                  "ioValue": 225
                 },
                 {
                   "name": "yDist",
@@ -48494,7 +48585,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 840
+                  "ioValue": 690
                 }
               ],
               "currentEquation": "x * .5"
@@ -48507,7 +48598,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 420
+                  "ioValue": 345
                 },
                 {
                   "name": "yDist",
@@ -48527,7 +48618,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 300
+                  "ioValue": 225
                 },
                 {
                   "name": "yDist",
@@ -48568,7 +48659,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 600
+                  "ioValue": 450
                 },
                 {
                   "name": "y",
@@ -48589,7 +48680,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": -410.8918542133544
+                  "ioValue": -260.8918542133544
                 },
                 {
                   "name": "yDist",
@@ -48696,7 +48787,7 @@
                 },
                 {
                   "name": "z",
-                  "ioValue": 600
+                  "ioValue": 450
                 }
               ],
               "currentEquation": "-x +y -z"
@@ -48713,7 +48804,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -477
+                  "ioValue": -327
                 },
                 {
                   "name": "zDist",
@@ -66488,8 +66579,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.45361380798274004,
-      "y": 0.3325635103926097,
+      "x": 0.38888888888888884,
+      "y": 0.11547344110854503,
       "uniqueID": "id-13330",
       "name": "Maslow4_Folding_Frame_Parts_Beam_Assembly_d",
       "ioValues": [
@@ -66507,7 +66598,7 @@
         },
         {
           "name": "TopHeight",
-          "ioValue": 600
+          "ioValue": 450
         },
         {
           "name": "LegWidth",
@@ -66539,7 +66630,7 @@
         },
         {
           "name": "LegFromCenter",
-          "ioValue": -500
+          "ioValue": 500
         }
       ],
       "topLevel": false,
@@ -66802,7 +66893,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -500
+              "ioValue": 500
             },
             {
               "name": "yDist",
@@ -70225,7 +70316,7 @@
             },
             {
               "name": "TopHeight",
-              "ioValue": 600
+              "ioValue": 450
             },
             {
               "name": "LegWidth",
@@ -70280,7 +70371,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 600
+                  "ioValue": 450
                 },
                 {
                   "name": "y length",
@@ -70296,7 +70387,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 840
+                  "ioValue": 690
                 },
                 {
                   "name": "y length",
@@ -70312,7 +70403,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 600
+                  "ioValue": 450
                 },
                 {
                   "name": "y length",
@@ -70549,7 +70640,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 600
+                  "ioValue": 450
                 }
               ],
               "currentEquation": "x *.5"
@@ -70563,7 +70654,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 600
+                  "ioValue": 450
                 },
                 {
                   "name": "y",
@@ -70616,7 +70707,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 300
+                  "ioValue": 225
                 },
                 {
                   "name": "yDist",
@@ -70637,7 +70728,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 840
+                  "ioValue": 690
                 }
               ],
               "currentEquation": "x * .5"
@@ -70650,7 +70741,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 420
+                  "ioValue": 345
                 },
                 {
                   "name": "yDist",
@@ -70670,7 +70761,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": 300
+                  "ioValue": 225
                 },
                 {
                   "name": "yDist",
@@ -70711,7 +70802,7 @@
               "ioValues": [
                 {
                   "name": "x",
-                  "ioValue": 600
+                  "ioValue": 450
                 },
                 {
                   "name": "y",
@@ -70732,7 +70823,7 @@
               "ioValues": [
                 {
                   "name": "xDist",
-                  "ioValue": -410.8918542133544
+                  "ioValue": -260.8918542133544
                 },
                 {
                   "name": "yDist",
@@ -70839,7 +70930,7 @@
                 },
                 {
                   "name": "z",
-                  "ioValue": 600
+                  "ioValue": 450
                 }
               ],
               "currentEquation": "-x +y -z"
@@ -70856,7 +70947,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -477
+                  "ioValue": -327
                 },
                 {
                   "name": "zDist",
@@ -88630,100 +88721,132 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.176,
-      "uniqueID": "id-25669",
-      "name": "WoodThick",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.242,
-      "uniqueID": "id-25672",
-      "name": "BeamLength",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.308,
-      "uniqueID": "id-25675",
-      "name": "BeamHeight",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.374,
-      "uniqueID": "id-25678",
-      "name": "TopHeight",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.44,
-      "uniqueID": "id-25681",
-      "name": "LegWidth",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.506,
-      "uniqueID": "id-25684",
-      "name": "LegAngle",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.5720000000000001,
-      "uniqueID": "id-25687",
-      "name": "BitDiameter",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.6380000000000001,
-      "uniqueID": "id-25690",
-      "name": "Bolt2Diameter",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.7040000000000002,
-      "uniqueID": "id-25693",
-      "name": "TabletopLength",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.7700000000000002,
-      "uniqueID": "id-25696",
-      "name": "BoltDiameter",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.8314087759815243,
-      "uniqueID": "id-25699",
-      "name": "TabletopWidth",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.9020000000000004,
-      "uniqueID": "id-25710",
-      "name": "LegFromCenter",
-      "type": "number"
+      "atomType": "GitHubMolecule",
+      "x": 0.5717367853290184,
+      "y": 0.14087759815242495,
+      "uniqueID": "id-38089",
+      "name": "Plywood_4_by_8",
+      "ioValues": [
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-38083"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-38084",
+          "name": "WoodThick",
+          "type": "number"
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.0598705501618123,
+          "y": 0.4965357967667437,
+          "uniqueID": "id-38085",
+          "name": "Four",
+          "value": 1219
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.0598705501618123,
+          "y": 0.6443418013856812,
+          "uniqueID": "id-38086",
+          "name": "Eight",
+          "value": 2438
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.16612729234088458,
+          "y": 0.5381062355658198,
+          "uniqueID": "id-38087",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 1219
+            },
+            {
+              "name": "y length",
+              "ioValue": 2438
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2394822006472492,
+          "y": 0.5265588914549654,
+          "uniqueID": "id-38088",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 19.05
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-38084",
+          "ap2ID": "id-38088"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-38085",
+          "ap2ID": "id-38087"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-38086",
+          "ap2ID": "id-38087"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-38087",
+          "ap2ID": "id-38088"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-38088",
+          "ap2ID": "id-38083"
+        }
+      ],
+      "parentRepo": {
+        "privateRepo": false,
+        "repoName": "Plywood_4_by_8",
+        "dateCreated": "2025-12-19T07:48:34Z",
+        "readMe": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "id-16416",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/wouldchuckit/Plywood_4_by_8",
+        "topics": [
+          "hardware",
+          "plywood",
+          "lumber"
+        ],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739604",
+        "ranking": 0,
+        "searchField": "plywood_4_by_8 wouldchuckit four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber hardware plywood lumber",
+        "owner": "wouldchuckit",
+        "description": "four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber",
+        "contentURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -88738,6 +88861,21 @@
       "ap2ID": "id-5124"
     },
     {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-25669",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-25669",
+      "ap2ID": "id-9227"
+    },
+    {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-25669",
+      "ap2ID": "id-38089"
+    },
+    {
       "ap2Name": "BeamLength",
       "ap1ID": "id-25672",
       "ap2ID": "id-1021"
@@ -88746,6 +88884,16 @@
       "ap2Name": "BeamLength",
       "ap1ID": "id-25672",
       "ap2ID": "id-5124"
+    },
+    {
+      "ap2Name": "BeamLength",
+      "ap1ID": "id-25672",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "BeamLength",
+      "ap1ID": "id-25672",
+      "ap2ID": "id-9227"
     },
     {
       "ap2Name": "BeamHeight",
@@ -88758,6 +88906,16 @@
       "ap2ID": "id-5124"
     },
     {
+      "ap2Name": "BeamHeight",
+      "ap1ID": "id-25675",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "BeamHeight",
+      "ap1ID": "id-25675",
+      "ap2ID": "id-9227"
+    },
+    {
       "ap2Name": "TopHeight",
       "ap1ID": "id-25678",
       "ap2ID": "id-1021"
@@ -88766,6 +88924,16 @@
       "ap2Name": "TopHeight",
       "ap1ID": "id-25678",
       "ap2ID": "id-5124"
+    },
+    {
+      "ap2Name": "TopHeight",
+      "ap1ID": "id-25678",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "TopHeight",
+      "ap1ID": "id-25678",
+      "ap2ID": "id-9227"
     },
     {
       "ap2Name": "LegWidth",
@@ -88778,6 +88946,16 @@
       "ap2ID": "id-5124"
     },
     {
+      "ap2Name": "LegWidth",
+      "ap1ID": "id-25681",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "LegWidth",
+      "ap1ID": "id-25681",
+      "ap2ID": "id-9227"
+    },
+    {
       "ap2Name": "LegAngle",
       "ap1ID": "id-25684",
       "ap2ID": "id-1021"
@@ -88786,6 +88964,16 @@
       "ap2Name": "LegAngle",
       "ap1ID": "id-25684",
       "ap2ID": "id-5124"
+    },
+    {
+      "ap2Name": "LegAngle",
+      "ap1ID": "id-25684",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "LegAngle",
+      "ap1ID": "id-25684",
+      "ap2ID": "id-9227"
     },
     {
       "ap2Name": "BitDiameter",
@@ -88798,6 +88986,16 @@
       "ap2ID": "id-5124"
     },
     {
+      "ap2Name": "BitDiameter",
+      "ap1ID": "id-25687",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "BitDiameter",
+      "ap1ID": "id-25687",
+      "ap2ID": "id-9227"
+    },
+    {
       "ap2Name": "Bolt2Diameter",
       "ap1ID": "id-25690",
       "ap2ID": "id-1021"
@@ -88806,6 +89004,16 @@
       "ap2Name": "Bolt2Diameter",
       "ap1ID": "id-25690",
       "ap2ID": "id-5124"
+    },
+    {
+      "ap2Name": "Bolt2Diameter",
+      "ap1ID": "id-25690",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "Bolt2Diameter",
+      "ap1ID": "id-25690",
+      "ap2ID": "id-9227"
     },
     {
       "ap2Name": "TabletopLength",
@@ -88813,9 +89021,39 @@
       "ap2ID": "id-1021"
     },
     {
+      "ap2Name": "TabletopLength",
+      "ap1ID": "id-25693",
+      "ap2ID": "id-5124"
+    },
+    {
+      "ap2Name": "TabletopLength",
+      "ap1ID": "id-25693",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "TabletopLength",
+      "ap1ID": "id-25693",
+      "ap2ID": "id-9227"
+    },
+    {
       "ap2Name": "BoltDiameter",
       "ap1ID": "id-25696",
       "ap2ID": "id-1021"
+    },
+    {
+      "ap2Name": "BoltDiameter",
+      "ap1ID": "id-25696",
+      "ap2ID": "id-5124"
+    },
+    {
+      "ap2Name": "BoltDiameter",
+      "ap1ID": "id-25696",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "BoltDiameter",
+      "ap1ID": "id-25696",
+      "ap2ID": "id-9227"
     },
     {
       "ap2Name": "TabletopWidth",
@@ -88823,9 +89061,34 @@
       "ap2ID": "id-1021"
     },
     {
+      "ap2Name": "TabletopWidth",
+      "ap1ID": "id-25699",
+      "ap2ID": "id-5124"
+    },
+    {
+      "ap2Name": "TabletopWidth",
+      "ap1ID": "id-25699",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "TabletopWidth",
+      "ap1ID": "id-25699",
+      "ap2ID": "id-9227"
+    },
+    {
       "ap2Name": "LegFromCenter",
       "ap1ID": "id-25710",
       "ap2ID": "id-1021"
+    },
+    {
+      "ap2Name": "LegFromCenter",
+      "ap1ID": "id-25710",
+      "ap2ID": "id-13330"
+    },
+    {
+      "ap2Name": "LegFromCenter",
+      "ap1ID": "id-25710",
+      "ap2ID": "id-9227"
     }
   ],
   "unitsKey": "MM",
