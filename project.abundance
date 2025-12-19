@@ -358,8 +358,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.48813376483279397,
-          "y": 0.6327944572748267,
+          "x": 0.424487594390507,
+          "y": 0.7090069284064665,
           "uniqueID": "id-50477",
           "name": "atan(x/y) -.03",
           "ioValues": [
@@ -471,6 +471,20 @@
           "uniqueID": "id-50488",
           "name": "TabletopLength",
           "type": "number"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.9056094929881338,
+          "y": 0.7182448036951501,
+          "uniqueID": "id-71481",
+          "name": "2*x",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 24.84617779168552
+            }
+          ],
+          "currentEquation": "2*x"
         }
       ],
       "allConnectors": [
@@ -490,9 +504,9 @@
           "ap2ID": "id-50480"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "x",
           "ap1ID": "id-50478",
-          "ap2ID": "id-50472"
+          "ap2ID": "id-71481"
         },
         {
           "ap2Name": "x",
@@ -528,6 +542,11 @@
           "ap2Name": "y",
           "ap1ID": "id-50488",
           "ap2ID": "id-50477"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-71481",
+          "ap2ID": "id-50472"
         }
       ],
       "fileTypeVersion": 1
