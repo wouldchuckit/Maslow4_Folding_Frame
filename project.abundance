@@ -160,6 +160,134 @@
     },
     {
       "atomType": "GitHubMolecule",
+      "x": 0.5717367853290184,
+      "y": 0.14087759815242495,
+      "uniqueID": "id-38089",
+      "name": "Plywood_4_by_8",
+      "ioValues": [
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-38083"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-38084",
+          "name": "WoodThick",
+          "type": "number"
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.0598705501618123,
+          "y": 0.4965357967667437,
+          "uniqueID": "id-38085",
+          "name": "Four",
+          "value": 1219
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.0598705501618123,
+          "y": 0.6443418013856812,
+          "uniqueID": "id-38086",
+          "name": "Eight",
+          "value": 2438
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.16612729234088458,
+          "y": 0.5381062355658198,
+          "uniqueID": "id-38087",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 1219
+            },
+            {
+              "name": "y length",
+              "ioValue": 2438
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2394822006472492,
+          "y": 0.5265588914549654,
+          "uniqueID": "id-38088",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 19.05
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-38084",
+          "ap2ID": "id-38088"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-38085",
+          "ap2ID": "id-38087"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-38086",
+          "ap2ID": "id-38087"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-38087",
+          "ap2ID": "id-38088"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-38088",
+          "ap2ID": "id-38083"
+        }
+      ],
+      "parentRepo": {
+        "privateRepo": false,
+        "repoName": "Plywood_4_by_8",
+        "dateCreated": "2025-12-19T07:48:34Z",
+        "readMe": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "id-16416",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/wouldchuckit/Plywood_4_by_8",
+        "topics": [
+          "hardware",
+          "plywood",
+          "lumber"
+        ],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739604",
+        "ranking": 0,
+        "searchField": "plywood_4_by_8 wouldchuckit four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber hardware plywood lumber",
+        "owner": "wouldchuckit",
+        "description": "four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber",
+        "contentURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "GitHubMolecule",
       "x": 0.14670981661272922,
       "y": 0.12702078521939952,
       "uniqueID": "id-1021",
@@ -88721,15 +88849,32 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "GitHubMolecule",
-      "x": 0.5717367853290184,
-      "y": 0.14087759815242495,
-      "uniqueID": "id-38089",
-      "name": "Plywood_4_by_8",
+      "atomType": "Molecule",
+      "x": 0.9227076591154262,
+      "y": 0.2248267898383372,
+      "uniqueID": "id-50471",
+      "name": "RotateBeamCenter",
       "ioValues": [
         {
           "name": "WoodThick",
           "ioValue": 19.05
+        },
+        {
+          "name": "BeamLength",
+          "ioValue": 2438,
+          "currentEquation": "2438"
+        },
+        {
+          "name": "BeamHeight",
+          "ioValue": 203
+        },
+        {
+          "name": "TabletopWidth",
+          "ioValue": 4
+        },
+        {
+          "name": "TabletopLength",
+          "ioValue": 8
         }
       ],
       "topLevel": false,
@@ -88738,114 +88883,345 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-38083"
+          "uniqueID": "id-50472"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.8558252427184466,
+          "y": 0.5412240184757505,
+          "uniqueID": "id-50473",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -1348.7172864916463
+            },
+            {
+              "name": "yDist",
+              "ioValue": 101.5
+            },
+            {
+              "name": "zDist",
+              "ioValue": -28.575000000000003
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.7743797195253506,
+          "y": 0.4650115473441108,
+          "uniqueID": "id-50474",
+          "name": "-3*z/2",
+          "ioValues": [
+            {
+              "name": "z",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "-3*z/2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.7759978425026969,
+          "y": 0.5689376443418013,
+          "uniqueID": "id-50475",
+          "name": "y/2",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 203
+            }
+          ],
+          "currentEquation": "y/2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.7835490830636462,
+          "y": 0.7121247113163972,
+          "uniqueID": "id-50476",
+          "name": "-.5*x -  y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 2438
+            },
+            {
+              "name": "y",
+              "ioValue": 129.71728649164632
+            }
+          ],
+          "currentEquation": "-.5*x -  y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.551779935275081,
+          "y": 0.581986143187067,
+          "uniqueID": "id-50477",
+          "name": "atan(x/y) -.03",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 4
+            },
+            {
+              "name": "y",
+              "ioValue": 8
+            }
+          ],
+          "currentEquation": "atan(x/y) -.03"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.5834412081984898,
+          "y": 0.7421478060046189,
+          "uniqueID": "id-50478",
+          "name": "x * 180/ pi",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 0.4336476090008061
+            }
+          ],
+          "currentEquation": "x * 180/ pi"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.6562567421790724,
+          "y": 0.5666281755196304,
+          "uniqueID": "id-50479",
+          "name": ".5*x* tan(.5*pi - y)",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 57.150000000000006
+            },
+            {
+              "name": "y",
+              "ioValue": 0.4336476090008061
+            }
+          ],
+          "currentEquation": ".5*x* tan(.5*pi - y)"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.654099244875944,
+          "y": 0.7352193995381062,
+          "uniqueID": "id-50480",
+          "name": ".5*x / (cos(.5*pi - y))",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 57.150000000000006
+            },
+            {
+              "name": "y",
+              "ioValue": 0.4336476090008061
+            }
+          ],
+          "currentEquation": ".5*x / (cos(.5*pi - y))"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.724217907227616,
+          "y": 0.7467667436489608,
+          "uniqueID": "id-50481",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 61.71129624572775
+            },
+            {
+              "name": "y",
+              "ioValue": 68.00599024591857
+            }
+          ],
+          "currentEquation": "x + y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.5775080906148868,
+          "y": 0.4349884526558892,
+          "uniqueID": "id-50482",
+          "name": "3*x",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 19.05
+            }
+          ],
+          "currentEquation": "3*x"
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.9205501618122978,
+          "y": 0.6890300230946882,
+          "uniqueID": "id-50483",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
         },
         {
           "atomType": "Input",
           "x": 0.01815,
           "y": 0.10999999999999999,
-          "uniqueID": "id-38084",
+          "uniqueID": "id-50484",
           "name": "WoodThick",
           "type": "number"
         },
         {
-          "atomType": "Constant",
-          "x": 0.0598705501618123,
-          "y": 0.4965357967667437,
-          "uniqueID": "id-38085",
-          "name": "Four",
-          "value": 1219
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-50485",
+          "name": "BeamLength",
+          "type": "number"
         },
         {
-          "atomType": "Constant",
-          "x": 0.0598705501618123,
-          "y": 0.6443418013856812,
-          "uniqueID": "id-38086",
-          "name": "Eight",
-          "value": 2438
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-50486",
+          "name": "BeamHeight",
+          "type": "number"
         },
         {
-          "atomType": "Rectangle",
-          "x": 0.16612729234088458,
-          "y": 0.5381062355658198,
-          "uniqueID": "id-38087",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 1219
-            },
-            {
-              "name": "y length",
-              "ioValue": 2438
-            }
-          ]
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.308,
+          "uniqueID": "id-50487",
+          "name": "TabletopWidth",
+          "type": "number"
         },
         {
-          "atomType": "Extrude",
-          "x": 0.2394822006472492,
-          "y": 0.5265588914549654,
-          "uniqueID": "id-38088",
-          "ioValues": [
-            {
-              "name": "height",
-              "ioValue": 19.05
-            }
-          ]
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.374,
+          "uniqueID": "id-50488",
+          "name": "TabletopLength",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.44,
+          "uniqueID": "id-50489",
+          "name": "BeamAssembly",
+          "type": "geometry"
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "height",
-          "ap1ID": "id-38084",
-          "ap2ID": "id-38088"
-        },
-        {
-          "ap2Name": "x length",
-          "ap1ID": "id-38085",
-          "ap2ID": "id-38087"
-        },
-        {
-          "ap2Name": "y length",
-          "ap1ID": "id-38086",
-          "ap2ID": "id-38087"
-        },
-        {
           "ap2Name": "geometry",
-          "ap1ID": "id-38087",
-          "ap2ID": "id-38088"
+          "ap1ID": "id-50473",
+          "ap2ID": "id-50483"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-50474",
+          "ap2ID": "id-50473"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-50475",
+          "ap2ID": "id-50473"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-50476",
+          "ap2ID": "id-50473"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50477",
+          "ap2ID": "id-50478"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50477",
+          "ap2ID": "id-50479"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50477",
+          "ap2ID": "id-50480"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-38088",
-          "ap2ID": "id-38083"
+          "ap1ID": "id-50478",
+          "ap2ID": "id-50472"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50479",
+          "ap2ID": "id-50481"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50480",
+          "ap2ID": "id-50481"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50481",
+          "ap2ID": "id-50476"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50482",
+          "ap2ID": "id-50479"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50482",
+          "ap2ID": "id-50480"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50484",
+          "ap2ID": "id-50482"
+        },
+        {
+          "ap2Name": "z",
+          "ap1ID": "id-50484",
+          "ap2ID": "id-50474"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50485",
+          "ap2ID": "id-50476"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50486",
+          "ap2ID": "id-50475"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50487",
+          "ap2ID": "id-50477"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50488",
+          "ap2ID": "id-50477"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-50489",
+          "ap2ID": "id-50473"
         }
       ],
-      "parentRepo": {
-        "privateRepo": false,
-        "repoName": "Plywood_4_by_8",
-        "dateCreated": "2025-12-19T07:48:34Z",
-        "readMe": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/README.md?sanitize=true",
-        "yyyy": 2025,
-        "topMoleculeID": "id-16416",
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/wouldchuckit/Plywood_4_by_8",
-        "topics": [
-          "hardware",
-          "plywood",
-          "lumber"
-        ],
-        "parentRepo": null,
-        "forks": 0,
-        "dateModified": "739604",
-        "ranking": 0,
-        "searchField": "plywood_4_by_8 wouldchuckit four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber hardware plywood lumber",
-        "owner": "wouldchuckit",
-        "description": "four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber",
-        "contentURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "MM",
       "fileTypeVersion": 1
     }
   ],
