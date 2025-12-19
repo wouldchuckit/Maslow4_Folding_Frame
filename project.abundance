@@ -4,6 +4,60 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "Maslow4_Folding_Frame",
+  "ioValues": [
+    {
+      "name": "WoodThick",
+      "ioValue": 10
+    },
+    {
+      "name": "WoodThick",
+      "ioValue": 10
+    },
+    {
+      "name": "BeamLength",
+      "ioValue": 10
+    },
+    {
+      "name": "BeamHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "TopHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "LegWidth",
+      "ioValue": 10
+    },
+    {
+      "name": "LegAngle",
+      "ioValue": 10
+    },
+    {
+      "name": "BitDiameter",
+      "ioValue": 10
+    },
+    {
+      "name": "Bolt2Diameter",
+      "ioValue": 10
+    },
+    {
+      "name": "TabletopLength",
+      "ioValue": 10
+    },
+    {
+      "name": "BoltDiameter",
+      "ioValue": 10
+    },
+    {
+      "name": "TabletopWidth",
+      "ioValue": 10
+    },
+    {
+      "name": "LegFromCenter",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -88573,6 +88627,102 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.176,
+      "uniqueID": "id-25669",
+      "name": "WoodThick",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.242,
+      "uniqueID": "id-25672",
+      "name": "BeamLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.308,
+      "uniqueID": "id-25675",
+      "name": "BeamHeight",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.374,
+      "uniqueID": "id-25678",
+      "name": "TopHeight",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.44,
+      "uniqueID": "id-25681",
+      "name": "LegWidth",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.506,
+      "uniqueID": "id-25684",
+      "name": "LegAngle",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.5720000000000001,
+      "uniqueID": "id-25687",
+      "name": "BitDiameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.6380000000000001,
+      "uniqueID": "id-25690",
+      "name": "Bolt2Diameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.7040000000000002,
+      "uniqueID": "id-25693",
+      "name": "TabletopLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.7700000000000002,
+      "uniqueID": "id-25696",
+      "name": "BoltDiameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.8314087759815243,
+      "uniqueID": "id-25699",
+      "name": "TabletopWidth",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.9020000000000004,
+      "uniqueID": "id-25710",
+      "name": "LegFromCenter",
+      "type": "number"
     }
   ],
   "allConnectors": [],
