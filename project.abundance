@@ -88850,8 +88850,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.8430420711974109,
-      "y": 0.2424942263279446,
+      "x": 0.1499460625674218,
+      "y": 0.8706697459584295,
       "uniqueID": "id-50471",
       "name": "RotateBeamCenter",
       "ioValues": [
@@ -89153,6 +89153,40 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.32416396979503775,
+      "y": 0.6905311778290993,
+      "uniqueID": "id-50539",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.23031283710895362,
+      "y": 0.8914549653579676,
+      "uniqueID": "id-50545",
+      "name": "x/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x/2"
     }
   ],
   "allConnectors": [
@@ -89342,6 +89376,11 @@
       "ap2ID": "id-9227"
     },
     {
+      "ap2Name": "TabletopLength",
+      "ap1ID": "id-25693",
+      "ap2ID": "id-50471"
+    },
+    {
       "ap2Name": "BoltDiameter",
       "ap1ID": "id-25696",
       "ap2ID": "id-1021"
@@ -89380,6 +89419,11 @@
       "ap2Name": "TabletopWidth",
       "ap1ID": "id-25699",
       "ap2ID": "id-9227"
+    },
+    {
+      "ap2Name": "TabletopWidth",
+      "ap1ID": "id-25699",
+      "ap2ID": "id-50471"
     },
     {
       "ap2Name": "LegFromCenter",
