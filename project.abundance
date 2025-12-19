@@ -51,7 +51,8 @@
     },
     {
       "name": "LegFromCenter",
-      "ioValue": 500
+      "ioValue": -500,
+      "currentEquation": "-500"
     }
   ],
   "topLevel": true,
@@ -682,7 +683,7 @@
         },
         {
           "name": "LegFromCenter",
-          "ioValue": 500
+          "ioValue": -500
         }
       ],
       "topLevel": false,
@@ -945,7 +946,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 500
+              "ioValue": -500
             },
             {
               "name": "yDist",
@@ -23447,7 +23448,7 @@
         },
         {
           "name": "LegFromCenter",
-          "ioValue": 500
+          "ioValue": -500
         }
       ],
       "topLevel": false,
@@ -23710,7 +23711,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 500
+              "ioValue": -500
             },
             {
               "name": "yDist",
@@ -45995,7 +45996,7 @@
         },
         {
           "name": "LegFromCenter",
-          "ioValue": 500
+          "ioValue": -500
         }
       ],
       "topLevel": false,
@@ -46258,7 +46259,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 500
+              "ioValue": -500
             },
             {
               "name": "yDist",
@@ -68543,7 +68544,7 @@
         },
         {
           "name": "LegFromCenter",
-          "ioValue": 500
+          "ioValue": -500
         }
       ],
       "topLevel": false,
@@ -68806,7 +68807,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 500
+              "ioValue": -500
             },
             {
               "name": "yDist",
@@ -91165,6 +91166,15 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.9088457389428263,
+      "y": 0.8221709006928407,
+      "uniqueID": "id-88219",
+      "name": "README",
+      "readMeText": "Readme text here",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -91482,6 +91492,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-50573",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-50573",
+      "ap2ID": "id-88219"
     },
     {
       "ap2Name": "z-axis degrees",
