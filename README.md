@@ -6,7 +6,7 @@
 
 
 
- Readme text here
+ Completely parametric x shaped frame. Mostly finished.Still need to add a hole drilling layer.  In real life you would need a chain to connect the outside corners. 
 
 
 
