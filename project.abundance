@@ -51,8 +51,7 @@
     },
     {
       "name": "LegFromCenter",
-      "ioValue": -500,
-      "currentEquation": "-500"
+      "ioValue": -500
     }
   ],
   "topLevel": true,
@@ -158,271 +157,6 @@
       "uniqueID": "id-25710",
       "name": "LegFromCenter",
       "type": "number"
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.12028047464940668,
-      "y": 0.8845265588914549,
-      "uniqueID": "id-50471",
-      "name": "RotateBeamCenter",
-      "ioValues": [
-        {
-          "name": "TabletopWidth",
-          "ioValue": 4
-        },
-        {
-          "name": "TabletopLength",
-          "ioValue": 8
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-50472"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.7743797195253506,
-          "y": 0.4650115473441108,
-          "uniqueID": "id-50474",
-          "name": "-3*z/2",
-          "ioValues": [
-            {
-              "name": "z",
-              "ioValue": 1
-            }
-          ],
-          "currentEquation": "-3*z/2"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.7759978425026969,
-          "y": 0.5689376443418013,
-          "uniqueID": "id-50475",
-          "name": "y/2",
-          "ioValues": [
-            {
-              "name": "y",
-              "ioValue": 1
-            }
-          ],
-          "currentEquation": "y/2"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.7835490830636462,
-          "y": 0.7121247113163972,
-          "uniqueID": "id-50476",
-          "name": "-.5*x -  y",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 1
-            },
-            {
-              "name": "y",
-              "ioValue": 6.809306377514242
-            }
-          ],
-          "currentEquation": "-.5*x -  y"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.424487594390507,
-          "y": 0.7090069284064665,
-          "uniqueID": "id-50477",
-          "name": "atan(x/y) -.03",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 4
-            },
-            {
-              "name": "y",
-              "ioValue": 8
-            }
-          ],
-          "currentEquation": "atan(x/y) -.03"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.7243797195253505,
-          "y": 0.9376443418013856,
-          "uniqueID": "id-50478",
-          "name": "x * 180/ pi",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 0.4336476090008061
-            }
-          ],
-          "currentEquation": "x * 180/ pi"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.6562567421790724,
-          "y": 0.5666281755196304,
-          "uniqueID": "id-50479",
-          "name": ".5*x* tan(.5*pi - y)",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 3
-            },
-            {
-              "name": "y",
-              "ioValue": 0.4336476090008061
-            }
-          ],
-          "currentEquation": ".5*x* tan(.5*pi - y)"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.654099244875944,
-          "y": 0.7352193995381062,
-          "uniqueID": "id-50480",
-          "name": ".5*x / (cos(.5*pi - y))",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 3
-            },
-            {
-              "name": "y",
-              "ioValue": 0.4336476090008061
-            }
-          ],
-          "currentEquation": ".5*x / (cos(.5*pi - y))"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.724217907227616,
-          "y": 0.7467667436489608,
-          "uniqueID": "id-50481",
-          "name": "x + y",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 3.239438123135315
-            },
-            {
-              "name": "y",
-              "ioValue": 3.5698682543789273
-            }
-          ],
-          "currentEquation": "x + y"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.5775080906148868,
-          "y": 0.4349884526558892,
-          "uniqueID": "id-50482",
-          "name": "3*x",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 1
-            }
-          ],
-          "currentEquation": "3*x"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.308,
-          "uniqueID": "id-50487",
-          "name": "TabletopWidth",
-          "type": "number"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.374,
-          "uniqueID": "id-50488",
-          "name": "TabletopLength",
-          "type": "number"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.9056094929881338,
-          "y": 0.7182448036951501,
-          "uniqueID": "id-71481",
-          "name": "2*x",
-          "ioValues": [
-            {
-              "name": "x",
-              "ioValue": 24.84617779168552
-            }
-          ],
-          "currentEquation": "2*x"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "x",
-          "ap1ID": "id-50477",
-          "ap2ID": "id-50478"
-        },
-        {
-          "ap2Name": "y",
-          "ap1ID": "id-50477",
-          "ap2ID": "id-50479"
-        },
-        {
-          "ap2Name": "y",
-          "ap1ID": "id-50477",
-          "ap2ID": "id-50480"
-        },
-        {
-          "ap2Name": "x",
-          "ap1ID": "id-50478",
-          "ap2ID": "id-71481"
-        },
-        {
-          "ap2Name": "x",
-          "ap1ID": "id-50479",
-          "ap2ID": "id-50481"
-        },
-        {
-          "ap2Name": "y",
-          "ap1ID": "id-50480",
-          "ap2ID": "id-50481"
-        },
-        {
-          "ap2Name": "y",
-          "ap1ID": "id-50481",
-          "ap2ID": "id-50476"
-        },
-        {
-          "ap2Name": "x",
-          "ap1ID": "id-50482",
-          "ap2ID": "id-50479"
-        },
-        {
-          "ap2Name": "x",
-          "ap1ID": "id-50482",
-          "ap2ID": "id-50480"
-        },
-        {
-          "ap2Name": "x",
-          "ap1ID": "id-50487",
-          "ap2ID": "id-50477"
-        },
-        {
-          "ap2Name": "y",
-          "ap1ID": "id-50488",
-          "ap2ID": "id-50477"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-71481",
-          "ap2ID": "id-50472"
-        }
-      ],
-      "fileTypeVersion": 1
     },
     {
       "atomType": "Rotate",
@@ -620,15 +354,393 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 90
         }
       ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.9088457389428263,
+      "y": 0.8221709006928407,
+      "uniqueID": "id-88219",
+      "name": "README",
+      "readMeText": "Completely parametric x shaped frame. Mostly finished.Still need to add a hole drilling layer.  In real life you would need a chain to connect the outside corners. ",
+      "global": true
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.12028047464940668,
+      "y": 0.8845265588914549,
+      "uniqueID": "id-50471",
+      "name": "RotateBeamCenter",
+      "ioValues": [
+        {
+          "name": "TabletopWidth",
+          "ioValue": 4
+        },
+        {
+          "name": "TabletopLength",
+          "ioValue": 8
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-50472"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.7743797195253506,
+          "y": 0.4650115473441108,
+          "uniqueID": "id-50474",
+          "name": "-3*z/2",
+          "ioValues": [
+            {
+              "name": "z",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "-3*z/2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.7759978425026969,
+          "y": 0.5689376443418013,
+          "uniqueID": "id-50475",
+          "name": "y/2",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "y/2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.7835490830636462,
+          "y": 0.7121247113163972,
+          "uniqueID": "id-50476",
+          "name": "-.5*x -  y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "-.5*x -  y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.424487594390507,
+          "y": 0.7090069284064665,
+          "uniqueID": "id-50477",
+          "name": "atan(x/y) -.03",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 4
+            },
+            {
+              "name": "y",
+              "ioValue": 8
+            }
+          ],
+          "currentEquation": "atan(x/y) -.03"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.7243797195253505,
+          "y": 0.9376443418013856,
+          "uniqueID": "id-50478",
+          "name": "x * 180/ pi",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 0.4336476090008061
+            }
+          ],
+          "currentEquation": "x * 180/ pi"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.6562567421790724,
+          "y": 0.5666281755196304,
+          "uniqueID": "id-50479",
+          "name": ".5*x* tan(.5*pi - y)",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 0.4336476090008061
+            }
+          ],
+          "currentEquation": ".5*x* tan(.5*pi - y)"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.654099244875944,
+          "y": 0.7352193995381062,
+          "uniqueID": "id-50480",
+          "name": ".5*x / (cos(.5*pi - y))",
+          "ioValues": [
+            {
+              "name": "y",
+              "ioValue": 0.4336476090008061
+            }
+          ],
+          "currentEquation": ".5*x / (cos(.5*pi - y))"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.724217907227616,
+          "y": 0.7467667436489608,
+          "uniqueID": "id-50481",
+          "name": "x + y",
+          "currentEquation": "x + y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.5775080906148868,
+          "y": 0.4349884526558892,
+          "uniqueID": "id-50482",
+          "name": "3*x",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "3*x"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-50487",
+          "name": "TabletopWidth",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-50488",
+          "name": "TabletopLength",
+          "type": "number"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.9056094929881338,
+          "y": 0.7182448036951501,
+          "uniqueID": "id-71481",
+          "name": "2*x",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 24.84617779168552
+            }
+          ],
+          "currentEquation": "2*x"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50477",
+          "ap2ID": "id-50478"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50477",
+          "ap2ID": "id-50479"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50477",
+          "ap2ID": "id-50480"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50478",
+          "ap2ID": "id-71481"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50479",
+          "ap2ID": "id-50481"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50480",
+          "ap2ID": "id-50481"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50481",
+          "ap2ID": "id-50476"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50482",
+          "ap2ID": "id-50479"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50482",
+          "ap2ID": "id-50480"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-50487",
+          "ap2ID": "id-50477"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-50488",
+          "ap2ID": "id-50477"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-71481",
+          "ap2ID": "id-50472"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.5841423948220065,
+      "y": 0.14318706697459585,
+      "uniqueID": "id-88204",
+      "name": "Plywood_4_by_8",
+      "ioValues": [
+        {
+          "name": "WoodThick",
+          "ioValue": 19.05
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-88198"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-88199",
+          "name": "WoodThick",
+          "type": "number"
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.0598705501618123,
+          "y": 0.4965357967667437,
+          "uniqueID": "id-88200",
+          "name": "Four",
+          "value": 1219
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.0598705501618123,
+          "y": 0.6443418013856812,
+          "uniqueID": "id-88201",
+          "name": "Eight",
+          "value": 2438
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.16612729234088458,
+          "y": 0.5381062355658198,
+          "uniqueID": "id-88202",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 1219
+            },
+            {
+              "name": "y length",
+              "ioValue": 2438
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2394822006472492,
+          "y": 0.5265588914549654,
+          "uniqueID": "id-88203",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 19.05
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-88199",
+          "ap2ID": "id-88203"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-88200",
+          "ap2ID": "id-88202"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-88201",
+          "ap2ID": "id-88202"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-88202",
+          "ap2ID": "id-88203"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-88203",
+          "ap2ID": "id-88198"
+        }
+      ],
+      "parentRepo": {
+        "privateRepo": false,
+        "repoName": "Plywood_4_by_8",
+        "dateCreated": "2025-12-19T07:48:34Z",
+        "readMe": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "id-16416",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/wouldchuckit/Plywood_4_by_8",
+        "topics": [
+          "hardware",
+          "plywood",
+          "lumber"
+        ],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739604",
+        "ranking": 0,
+        "searchField": "plywood_4_by_8 wouldchuckit four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber hardware plywood lumber",
+        "owner": "wouldchuckit",
+        "description": "four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber",
+        "contentURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
     },
     {
       "atomType": "GitHubMolecule",
@@ -91038,143 +91150,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "GitHubMolecule",
-      "x": 0.5841423948220065,
-      "y": 0.14318706697459585,
-      "uniqueID": "id-88204",
-      "name": "Plywood_4_by_8",
-      "ioValues": [
-        {
-          "name": "WoodThick",
-          "ioValue": 19.05
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-88198"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
-          "uniqueID": "id-88199",
-          "name": "WoodThick",
-          "type": "number"
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.0598705501618123,
-          "y": 0.4965357967667437,
-          "uniqueID": "id-88200",
-          "name": "Four",
-          "value": 1219
-        },
-        {
-          "atomType": "Constant",
-          "x": 0.0598705501618123,
-          "y": 0.6443418013856812,
-          "uniqueID": "id-88201",
-          "name": "Eight",
-          "value": 2438
-        },
-        {
-          "atomType": "Rectangle",
-          "x": 0.16612729234088458,
-          "y": 0.5381062355658198,
-          "uniqueID": "id-88202",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 1219
-            },
-            {
-              "name": "y length",
-              "ioValue": 2438
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.2394822006472492,
-          "y": 0.5265588914549654,
-          "uniqueID": "id-88203",
-          "ioValues": [
-            {
-              "name": "height",
-              "ioValue": 19.05
-            }
-          ]
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "height",
-          "ap1ID": "id-88199",
-          "ap2ID": "id-88203"
-        },
-        {
-          "ap2Name": "x length",
-          "ap1ID": "id-88200",
-          "ap2ID": "id-88202"
-        },
-        {
-          "ap2Name": "y length",
-          "ap1ID": "id-88201",
-          "ap2ID": "id-88202"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-88202",
-          "ap2ID": "id-88203"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-88203",
-          "ap2ID": "id-88198"
-        }
-      ],
-      "parentRepo": {
-        "privateRepo": false,
-        "repoName": "Plywood_4_by_8",
-        "dateCreated": "2025-12-19T07:48:34Z",
-        "readMe": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/README.md?sanitize=true",
-        "yyyy": 2025,
-        "topMoleculeID": "id-16416",
-        "githubMoleculesUsed": [],
-        "html_url": "https://github.com/wouldchuckit/Plywood_4_by_8",
-        "topics": [
-          "hardware",
-          "plywood",
-          "lumber"
-        ],
-        "parentRepo": null,
-        "forks": 0,
-        "dateModified": "739604",
-        "ranking": 0,
-        "searchField": "plywood_4_by_8 wouldchuckit four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber hardware plywood lumber",
-        "owner": "wouldchuckit",
-        "description": "four foot by 8 foot 4ft by 8ft flat material plywood osb particle board lumber",
-        "contentURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.abundance?sanitize=true",
-        "svgURL": "https://raw.githubusercontent.com/wouldchuckit/Plywood_4_by_8/master/project.svg?sanitize=true",
-        "isLocal": false
-      },
-      "unitsKey": "MM",
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.9088457389428263,
-      "y": 0.8221709006928407,
-      "uniqueID": "id-88219",
-      "name": "README",
-      "readMeText": "Completely parametric x shaped frame. Mostly finished.Still need to add a hole drilling layer.  In real life you would need a chain to connect the outside corners. ",
-      "global": true
     }
   ],
   "allConnectors": [
@@ -91439,11 +91414,6 @@
       "ap2ID": "id-76728"
     },
     {
-      "ap2Name": "x",
-      "ap1ID": "id-50471",
-      "ap2ID": "id-50545"
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-50539",
       "ap2ID": "id-50573"
@@ -91519,6 +91489,16 @@
       "ap2ID": "id-50573"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-50471",
+      "ap2ID": "id-50545"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-88204",
+      "ap2ID": "id-71468"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-72528",
       "ap2ID": "id-50539"
@@ -91537,11 +91517,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-85062",
       "ap2ID": "id-50567"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-88204",
-      "ap2ID": "id-71468"
     }
   ],
   "unitsKey": "MM",
