@@ -435,6 +435,10 @@
             {
               "name": "x",
               "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 3.7807451955059044
             }
           ],
           "currentEquation": "-.5*x -  y"
@@ -479,6 +483,10 @@
           "name": ".5*x* tan(.5*pi - y)",
           "ioValues": [
             {
+              "name": "x",
+              "ioValue": 3
+            },
+            {
               "name": "y",
               "ioValue": 0.7553981633974483
             }
@@ -493,6 +501,10 @@
           "name": ".5*x / (cos(.5*pi - y))",
           "ioValues": [
             {
+              "name": "x",
+              "ioValue": 3
+            },
+            {
               "name": "y",
               "ioValue": 0.7553981633974483
             }
@@ -505,6 +517,16 @@
           "y": 0.7467667436489608,
           "uniqueID": "id-50481",
           "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1.5928122116848127
+            },
+            {
+              "name": "y",
+              "ioValue": 2.1879329838210917
+            }
+          ],
           "currentEquation": "x + y"
         },
         {
