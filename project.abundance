@@ -19,7 +19,8 @@
     },
     {
       "name": "TopHeight",
-      "ioValue": 600
+      "ioValue": 600,
+      "currentEquation": "600"
     },
     {
       "name": "LegWidth",
