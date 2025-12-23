@@ -6,16 +6,7 @@
 
 
 
- Completely parametric x shaped frame. Mostly finished.Still need to add a hole drilling layer.  In real life you would need a chain to connect the outside corners. The hings design was fun to make but unnecessary. If you set the proportions of the tabletop to equal numbers like 8, 8  then it will make a good solid hinge. Good numbers to reset it for real 3/4 in plywood:
-WoodThick: 19.05 
-BeamLength: 2438
-BeamHeight: 203
-TopHeight: 450
-LegWidth: 80
-LegAngle:10
-BitDiameter:6.4 Bolt2Diameter: 6.4
-TabletopLength:8 TabletopWidth: 8 BoltDiameter: 20 LegFromCenter: 0
-
+ Completely parametric x shaped frame. Mostly finished.Still need to add a hole drilling layer.  In real life you would need a chain to connect the outside corners. 
 
 
 
