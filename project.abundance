@@ -400,7 +400,7 @@
       "name": "README",
       "ioValues": [
         {
-          "name": "geometry",
+          "name": "value",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
@@ -6543,7 +6543,7 @@
               "name": "README",
               "ioValues": [
                 {
-                  "name": "geometry",
+                  "name": "value",
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
@@ -7091,11 +7091,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-132316",
               "ap2ID": "id-132248"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-132316",
-              "ap2ID": "id-132317"
             }
           ],
           "parentRepo": {
@@ -35274,7 +35269,7 @@
               "name": "README",
               "ioValues": [
                 {
-                  "name": "geometry",
+                  "name": "value",
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
@@ -35822,11 +35817,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-137706",
               "ap2ID": "id-137638"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-137706",
-              "ap2ID": "id-137707"
             }
           ],
           "parentRepo": {
@@ -63920,7 +63910,7 @@
               "name": "README",
               "ioValues": [
                 {
-                  "name": "geometry",
+                  "name": "value",
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
@@ -64468,11 +64458,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-142266",
               "ap2ID": "id-142198"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-142266",
-              "ap2ID": "id-142267"
             }
           ],
           "parentRepo": {
@@ -92566,7 +92551,7 @@
               "name": "README",
               "ioValues": [
                 {
-                  "name": "geometry",
+                  "name": "value",
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
@@ -93114,11 +93099,6 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-147139",
               "ap2ID": "id-147071"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-147139",
-              "ap2ID": "id-147140"
             }
           ],
           "parentRepo": {
@@ -115916,11 +115896,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-50573",
       "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-50573",
-      "ap2ID": "id-88219"
     },
     {
       "ap2Name": "z-axis degrees",
